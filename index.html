@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Windows XP - Classic Furniture Mall</title>
+    
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+    <div data-role="page" id="home">
+        <div data-role="header" class="xp-header">
+            <h1>XP Furniture Mall - Inventory Management System</h1>
+        </div>
+
+        <div data-role="main" class="ui-content xp-desktop">
+            <div class="xp-welcome">
+                <h2>Welcome to the Virtual Furniture Showroom</h2>
+                <p>Click on the classic icons below to browse through our active catalog departments:</p>
+            </div>
+            
+            <div class="xp-grid-container">
+                <a href="#living-room" data-ajax="false" class="xp-grid-item">
+                    <span class="xp-icon">🛋️</span>
+                    <span class="xp-label">Living Room</span>
+                </a>
+                <a href="#bedroom" data-ajax="false" class="xp-grid-item">
+                    <span class="xp-icon">🛏️</span>
+                    <span class="xp-label">Bedrooms</span>
+                </a>
+                <a href="#dining" data-ajax="false" class="xp-grid-item">
+                    <span class="xp-icon">🪑</span>
+                    <span class="xp-label">Dining Tables</span>
+                </a>
+                <a href="#office" data-ajax="false" class="xp-grid-item">
+                    <span class="xp-icon">🖥️</span>
+                    <span class="xp-label">Office Furniture</span>
+                </a>
+                <a href="#outdoor" data-ajax="false" class="xp-grid-item">
+                    <span class="xp-icon">🏡</span>
+                    <span class="xp-label">Outdoor Settings</span>
+                </a>
+                <a href="#offers" data-ajax="false" class="xp-grid-item">
+                    <span class="xp-icon">💰</span>
+                    <span class="xp-label">Pricing & Offers</span>
+                </a>
+                <a href="#search-page" data-ajax="false" class="xp-grid-item">
+                    <span class="xp-icon">🔍</span>
+                    <span class="xp-label">Product Search</span>
+                </a>
+                <a href="#contact" data-ajax="false" class="xp-grid-item">
+                    <span class="xp-icon">✉️</span>
+                    <span class="xp-label">Custom Orders</span>
+                </a>
+                <div class="xp-grid-item xp-disabled">
+                    <span class="xp-icon">🗑️</span>
+                    <span class="xp-label">Recycle Bin</span>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" class="xp-taskbar">
+            <a href="#home" class="xp-start-button">start</a>
+            <span class="xp-clock">6:00 PM</span>
+        </div>
+    </div>
+
+    <div data-role="page" id="living-room">
+        <div data-role="header" class="xp-header">
+            <a href="#home" data-icon="home" class="xp-btn-back">Home</a>
+            <h1>Living Room Catalog</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="xp-window">
+                <h3>Premium Sofas and Lounges</h3>
+                <img src="assets/images/sofa_PNG.png" alt="sofa image" class="xp-detail-img">
+                <p>Explore our wide collection of high-density foam sofas, L-shape sectionals, and recliners. Manufactured with stain-resistant velvet fabrics and premium natural leather options to blend comfort with absolute durability.</p>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="bedroom">
+        <div data-role="header" class="xp-header">
+            <a href="#home" data-icon="home" class="xp-btn-back">Home</a>
+            <h1>Bedroom Collections</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="xp-window">
+                <h3>Master & Luxury Beds</h3>
+                <img src="assets/images/bed_PNG.png" alt="bed image" class="xp-detail-img">
+                <p>Our complete bedroom furniture sets feature solid beechwood bed frames, built-in LED headboards, and spacious sliding-door wardrobes designed to optimize tight spaces while keeping a modern visual layout.</p>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="dining">
+        <div data-role="header" class="xp-header">
+            <a href="#home" data-icon="home" class="xp-btn-back">Home</a>
+            <h1>Dining & Kitchen Sets</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="xp-window">
+                <h3>Luxury Dining Tables</h3>
+                <img src="assets/images/table_PNG.webp" alt="dining table image" class="xp-detail-img">
+                <p>Elegant dining configurations accommodating 6 to 12 people. Our tabletops are structured from scratch-resistant Italian marble and tempered glass, coupled with ergonomic padded chairs for premium seating comfort.</p>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="office">
+        <div data-role="header" class="xp-header">
+            <a href="#home" data-icon="home" class="xp-btn-back">Home</a>
+            <h1>Office Furniture</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="xp-window">
+                <h3>Ergonomic Workstations</h3>
+                <img src="assets/images/office_PNG.png" alt="office image" class="xp-detail-img">
+                <p>Boost your daily workplace productivity. We provide professional wooden and metal office desks engineered with smart cable management slots, paired with high-tier orthopedic mesh chairs supporting full spine posture adjustment.</p>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="outdoor">
+        <div data-role="header" class="xp-header">
+            <a href="#home" data-icon="home" class="xp-btn-back">Home</a>
+            <h1>Outdoor Settings</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="xp-window">
+                <h3>Weather-Resistant Garden Sets</h3>
+                <img src="assets/images/outdoor_PNG.png" alt="outdoor image" class="xp-detail-img">
+                <p>Heavy-duty synthetic rattan lounges, anti-rust aluminum chairs, and patio umbrellas. Designed completely to withstand harsh weather conditions, direct sunlight, and high humidity percentages without losing coloration.</p>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="offers">
+        <div data-role="header" class="xp-header">
+            <a href="#home" data-icon="home" class="xp-btn-back">Home</a>
+            <h1>Current System Discounts</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="xp-window">
+                <h3>Seasonal Discount Rates</h3>
+                <p>Expand the menus below to check corporate warranty structures and live discount rates:</p>
+                
+                <div data-role="collapsible" class="xp-collapsible">
+                    <h4>Living Room Sofa Campaign</h4>
+                    <p>Get a direct 30% reduction voucher across all imported Turkish and American sofa sets available in current stock packages.</p>
+                </div>
+                <div data-role="collapsible" class="xp-collapsible">
+                    <h4>5-Year Corporate Warranty</h4>
+                    <p>All structured wooden furniture components come packed with a certified 5-year coverage contract safeguarding against texture cracking or manufacturing anomalies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="search-page">
+        <div data-role="header" class="xp-header">
+            <a href="#home" data-icon="home" class="xp-btn-back">Home</a>
+            <h1>Product Search Wizard</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <ul data-role="listview" data-filter="true" data-filter-placeholder="Type keyword to look up item (e.g., Bed, Desk, Sofa)..." data-inset="true" class="xp-listview">
+                <li><a href="#living-room">L-Shape Velvet Sectional Sofa</a></li>
+                <li><a href="#bedroom">King Size Royal Beechwood Bed</a></li>
+                <li><a href="#dining">Italian Marble 8-Seater Dining Table</a></li>
+                <li><a href="#office">Ergonomic Orthopedic Desk Chair</a></li>
+                <li><a href="#outdoor">Synthetic Rattan Garden Patio Set</a></li>
+                <li><a href="#bedroom">Modern 6-Door Sliding Wardrobe</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="page" id="contact">
+        <div data-role="header" class="xp-header">
+            <a href="#home" data-icon="home" class="xp-btn-back">Home</a>
+            <h1>Custom Order Request</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div class="xp-window">
+                <p>Fill out the technical system form below to transmit your custom furniture structural metrics directly to our manufacturing engineers:</p>
+                
+                <form id="contactForm" data-ajax="false">
+                    
+                    <label for="username">Client Full Name:</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your full name" required>
+
+                    <label for="budget">Allocated Estimation Budget (BHD):</label>
+                    <input type="range" name="budget" id="budget" value="600" min="100" max="5000">
+
+                    <label for="message">Detailed Sizing Metrics & Canvas Fabrics:</label>
+                    <textarea name="message" id="message" placeholder="Specify item classification (e.g., Sofa, Bed), precise size dimension requirements, and your chosen fabric colors..." required></textarea>
+
+                    <button type="submit" class="xp-btn-submit">Submit Form Parameters</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
